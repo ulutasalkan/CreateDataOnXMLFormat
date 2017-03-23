@@ -30,6 +30,7 @@ public class XMLDataFormat {
                 name=name.substring(i+1);
             }
         }
+        nameList.add(name);
         return nameList;
     }
     public void display(ArrayList dataList){
